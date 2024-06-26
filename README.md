@@ -83,6 +83,7 @@ Several machine learning models are trained and evaluated using the processed da
 - Naive Bayes
 - AdaBoost
 - Extra Trees
+
 Each model is evaluated based on metrics such as accuracy, precision, recall, and F1 score to determine its performance in predicting the target variable classes (`P1`, `P2`, `P3`, `P4`).
 
 ### 6. Hyperparameter Tuning
