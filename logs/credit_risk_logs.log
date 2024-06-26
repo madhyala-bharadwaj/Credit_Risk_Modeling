@@ -1,0 +1,19 @@
+[2024-06-26 19:02:18,712:]: Data loaded successfully.
+[2024-06-26 19:02:19,184:]: Data Cleaned successfully.
+[2024-06-26 19:02:19,200:]: Chi-squared test for MARITALSTATUS - p-value: 3.578180861038862e-233
+[2024-06-26 19:02:19,200:]: Chi-squared test for EDUCATION - p-value: 2.6942265249737532e-30
+[2024-06-26 19:02:19,216:]: Chi-squared test for GENDER - p-value: 1.907936100186563e-05
+[2024-06-26 19:02:19,216:]: Chi-squared test for last_prod_enq2 - p-value: 0.0
+[2024-06-26 19:02:19,231:]: Chi-squared test for first_prod_enq2 - p-value: 7.84997610555419e-287
+[2024-06-26 19:02:37,059:]: Reduced VIF - Columns dropped: ['Total_TL', 'Tot_Closed_TL', 'Tot_Active_TL', 'Total_TL_opened_L6M', 'Tot_TL_closed_L6M', 'pct_active_tl', 'pct_closed_tl', 'Total_TL_opened_L12M', 'pct_tl_open_L12M', 'Auto_TL', 'Consumer_TL', 'Gold_TL', 'num_times_delinquent', 'num_deliq_6mts', 'num_deliq_12mts', 'num_times_30p_dpd', 'num_std', 'num_std_6mts', 'num_dbt_6mts', 'num_lss_6mts', 'tot_enq', 'CC_enq', 'CC_enq_L6m', 'PL_enq', 'PL_enq_L6m', 'enq_L12m', 'enq_L6m', 'AGE', 'pct_of_active_TLs_ever', 'pct_opened_TLs_L6m_of_L12m', 'pct_PL_enq_L6m_of_L12m', 'pct_CC_enq_L6m_of_L12m', 'Credit_Score']
+[2024-06-26 19:02:37,706:]: ANOVA test - Columns dropped: ['num_lss_12mts', 'pct_currentBal_all_TL']
+[2024-06-26 19:02:37,738:]: Data scaling complete
+[2024-06-26 19:02:37,753:]: Started Hyperparameter tuning
+[2024-06-26 19:05:19,887:]: Best Model Parameters: {'alpha': 10, 'colsample_bytree': 0.7, 'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 200}
+[2024-06-26 19:05:19,954:]: Accuracy: 0.78
+[2024-06-26 19:05:19,954:]: Class P1 - Precision: 0.84, Recall: 0.76, F1 Score: 0.80
+[2024-06-26 19:05:19,954:]: Class P2 - Precision: 0.82, Recall: 0.93, F1 Score: 0.87
+[2024-06-26 19:05:19,954:]: Class P3 - Precision: 0.47, Recall: 0.26, F1 Score: 0.34
+[2024-06-26 19:05:19,954:]: Class P4 - Precision: 0.74, Recall: 0.74, F1 Score: 0.74
+[2024-06-26 19:05:19,970:]: Model and Label Encoder saved successfully.
+[2024-06-26 19:05:20,272:]: Predictions on unseen data saved at final_predictions.xlsx
