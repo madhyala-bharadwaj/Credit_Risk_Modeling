@@ -13,7 +13,9 @@ CreditRiskProject/
 ├── data/
 │ ├── case_study1.xlsx
 │ ├── case_study2.xlsx
-│ └── Unseen_Dataset.xlsx
+│ ├── Unseen_Dataset.xlsx
+│ ├── best_model.pkl
+│ └── label_encoder.pkl
 ├── logs/
 │ └── credit_risk_logs.log
 ├── credit_risk.ipynb
